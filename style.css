@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightblue;
+    padding-left: 215px;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    background: lightblue;
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar {
+    margin-left: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.navbar h3 {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.navbar img {
+    height: 8px;
+    padding-left: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.navbar a {
+    font-size: 11px;
+    font-weight: 400;
+    color: blue;
+    text-decoration: none;
+    margin-left: 6px;
+}
+
+.home p {
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    padding-left: 4px;
+}
+
+.intro {
+    background: skyblue;
+    display: flex;
+    margin-top: 18px;
+}
+
+.intro img {
+    height: 15px;
+    cursor: pointer;
+}
+
+.intro-content a {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.info {
+    background: white;
+    display: flex;
+    margin-top: 15px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+.info img {
+    height: 15px;
+    padding-left: 10px;
+}
+
+.info-container a {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.features {
+    background-color: skyblue;
+}
+
+button {
+    background-color: lightblue;
+    color: blue;
+    text-align: center;
+    padding: 3px 3px;
+    border-color: lightblue;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.active {
+    font-weight: bold;
+    background: white;
+    border-bottom: none;
+    border-left: none;
+}
+
+.details {
+    background: white;
+    padding-top: 20px;
+    display: flex;
+    padding-left: 15px;
+    border: 3px solid lightblue;
+    border-width: 1px;
+    padding-bottom: 40px;
+}
+
+.details div {
+    font-family: arial;
+    line-height: 27px;
+    color: grey;
+}
+
+.details2 div {
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(2, 1, 1);
+    padding-left: 20px;
+}
+
+.details2 img {
+    height: 15px;
+}
+
+.details2 a {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 17px;
+    width: 205px;
+    background-color: lightblue;
+}
+
+.sidebar h2 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: white;
+    background-color: rgb(41, 41, 187);
+    padding-left: 5px;
+}
+
+.sidebar-link {
+    padding-left: 5px;
+    display: flex;
+    background: white;
+    align-items: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.sidebar-link img {
+    height: 16px;
+}
+
+.sidebar-link:hover {
+    background-color: white;
+}
+
+.sidebar-link div {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 9px;
+}
